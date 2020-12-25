@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+      integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="page_first" id="fullpage">
+      <!-- <div class="nav_bar">
+        <img class="img" src="./assets/logo.svg" alt="Pixel Archtects" />
+        <div class="menu_container">
+          <a href="#">HOME</a>
+          <a href="#">WHY US</a>
+          <a href="#">ABOUT US</a>
+          <a href="#" class="btn_custom">HIRE US</a>
+      </div>
+        </div>  -->
+      <div class="container_intro">
+        <span>PIXEL ARCHITECTS</span>
+        <img src="./assets/keyboard.svg" alt="Keyboard" class="keyboard" />
+        <img class="scrollDown" src="./assets/down.png" alt="Scroll down" />
+      </div>
+    </div>
+    <div class="container_why" id="fullpage">
+      <div class="first_container">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="second_container">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js"
+      integrity="sha512-eH2N2Zt2AeLuFlFvRSEeZcVeAESY+8nfIqhxx0XXEou6w/G4lLY3K8UKNYqi6e1pLXDduVF1KF/lbyxy3+X6OA=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+      });
+
+      //methods
+      fullpage_api.setAllowScrolling(true);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.nav_bar {
+  margin-top: -10vh;
+  height: 75.6px;
+  position: fixed;
+  padding: 15px 40px 15px 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+}
+
+.nav_bar .img {
+  height: 45px;
+  left: 0;
+}
+
+.menu_container {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu_container a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn_custom {
+  border: 1px solid black;
+  padding: 7px;
+}
+
+.btn_custom:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.page_first {
+  padding: 10vh;
+  height: 100vh;
+  background-color: #222222;
+}
+
+.container_intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+}
+
+.container_intro span {
+  color: white;
+  font-size: 5em;
+}
+
+.keyboard {
+  width: 500px;
+  height: 200px;
+}
+
+.scrollDown {
+  width: 50px;
+  height: 50px;
+}
+
+.container_why {
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.first_container,
+.second_container {
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: yellow;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #222222;
+}
+/*# sourceMappingURL=style.css.map */
